@@ -28,7 +28,7 @@ These ranges may be changed at any time if they are found to conflict with anoth
 
 Each organization on the router.city network with control of an address block will need a unique Autonomous System Number (ASN) to identify the organization's network.
 
-ASN assignments are located [here](allocations/asn.md]
+ASN assignments are located [here](allocations/asn.md)
 
 ## Software
 
