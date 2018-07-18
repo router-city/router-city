@@ -16,11 +16,11 @@ IPv4 addresses will be assigned from the `172.24.0.0/7` block, which is reserved
 
 ### Current IPv4 Allocations
 
-IPv4 Allocations are located at (https://github.com/router-city/router-city/allocations/ipv4.md)
+IPv4 Allocations are located [here](allocations/ipv4.md).
 
 ### Current IPv6 Allocations
 
-IPv6 Allocations are located at (https://github.com/router-city/router-city/allocations/ipv6.md)
+IPv6 Allocations are located [here](allocations/ipv6.md).
 
 These ranges may be changed at any time if they are found to conflict with another range or be unusable for any reason.
 
@@ -28,7 +28,7 @@ These ranges may be changed at any time if they are found to conflict with anoth
 
 Each organization on the router.city network with control of an address block will need a unique Autonomous System Number (ASN) to identify the organization's network.
 
-ASN assignments are located at (https://github.com/router-city/router-city/allocations/asn.md
+ASN assignments are located [here](allocations/asn.md
 
 ## Software
 

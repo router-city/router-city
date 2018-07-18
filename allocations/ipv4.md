@@ -1,10 +1,10 @@
-## Addressing
+# IPv4 Addressing
 
 router.city will utilize both IPv4 and IPv6 addressing within the network.
 
 IPv4 addresses will be assigned from the `172.24.0.0/7` block, which is reserved for private network space. This range does not conflict with dn42, ChaosVPN, or Friefunk.
 
-### Current IPv4 Allocations
+## Current IPv4 Allocations
 
 | CIDR          | Range                      | User          |
 | ------------- | -------------------------- | ------------- |
