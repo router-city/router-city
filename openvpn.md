@@ -7,13 +7,13 @@ Here is a basic configuration for connecting two peers via [OpenVPN](https://ope
 Assuming a Debian installation with a non-root, sudo user. First, install `openvpn` on both peers (which I will call peer0 and peer1):
 
 ```
-sudo apt-get install openvpn
+$ sudo apt-get install openvpn
 ```
 
 Now we will create a config file on peer0:
 
 ```
-sudo nano /etc/openvpn/router-city-peer0-peer1.config
+$ sudo nano /etc/openvpn/router-city-peer0-peer1.config
 ```
 
 Use the following sample comfig and customize it with your info as outlined below:
@@ -66,7 +66,7 @@ Before starting up, make sure that the port specified in `<LOCAL_PORT>` is opene
 When done, start `openvpn` in the background on each peer, or the foreground if you want to verify things started up okay.
 
 ```
-sudo nohup openvpn /etc/openvpn/router-city-<PEER_NAME>-<REMOTE_PEER_NAME>.conf &
+$ sudo nohup openvpn /etc/openvpn/router-city-<PEER_NAME>-<REMOTE_PEER_NAME>.conf &
 ```
 
 When done, check the interfaces on each node and do a quick ping test if you'd like.
