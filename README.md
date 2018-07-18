@@ -10,7 +10,7 @@ Chat with us on Matrix! - [#bgp:phillymesh.net](https://matrix.to/#/#bgp:phillym
 
 router.city will utilize both IPv4 and IPv6 addressing within the network. 
 
-IPv6 addresses will be assigned from the `2001:db8::/32` block, which is reserved space for documentation and source code examples. This range does not conflict with dn42, ChaosVPN, Friefunk, Yggdrasil, or cjdns.
+IPv6 addresses will be assigned from the `2001:db8:dead:beef:/64` block, which is reserved space for documentation and source code examples. This range does not conflict with dn42, ChaosVPN, Friefunk, Yggdrasil, or cjdns.
 
 IPv4 addresses will be assigned from the `172.24.0.0/7` block, which is reserved for private network space. This range does not conflict with dn42, ChaosVPN, or Friefunk.
 
@@ -45,3 +45,11 @@ This range may change at any time if it is found to conflict with another range 
 Participants in the network will need to use some sort of VPN software to facilitate connections to one another with their an address in their allocation. Users can choose to use any VPN client like WireGuard or tinc, though OpenVPN will be considered the base case as it arguably has the most compatibility with different operating systems and hosting environments.
 
 Any BGP daemon can be used to create a router, though the base case will showcase bird. Other daemons include Quagga and BGPd.
+
+### OpenVPN
+
+Sample configuration is available here, [OpenVPN Configuration](openvpn.md).
+
+### Bird
+
+Coming soon!
