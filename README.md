@@ -14,6 +14,18 @@ IPv6 addresses will be assigned from the `2001:db8::/32` block, which is reserve
 
 IPv4 addresses will be assigned from the `172.24.0.0/7` block, which is reserved for private network space. This range does not conflict with dn42, ChaosVPN, or Friefunk.
 
+### Current IPv4 Allocations
+
+| CIDR          | Range                      | User          |
+| ------------- | -------------------------- | ------------- |
+| 172.24.0.0/24 | 172.24.0.0 - 172.24.0.255  | [Famicoman](https://github.com/Famicoman)|
+
+### Current IPv46 Allocations
+
+| CIDR                                 | Range                                                                  | User          |
+| ------------------------------------ | ---------------------------------------------------------------------- | ------------- |
+| 2001:db8:dead:beef:cafe:f00d:0::/112 | 2001:db8:dead:beef:cafe:f00d:0:0 - 2001:db8:dead:beef:cafe:f00d:0:ffff | [Famicoman](https://github.com/Famicoman)|
+
 These ranges may be changed at any time if they are found to conflict with another range or be unusable for any reason.
 
 ## Autonomous System Numbers
@@ -21,6 +33,10 @@ These ranges may be changed at any time if they are found to conflict with anoth
 Each organization on the router.city network with control of an address block will need a unique Autonomous System Number (ASN) to identify the organization's network.
 
 AS numbers will be assigned from the `64496 - 64511` range, which is reserved space for documentation and source code examples.
+
+| ASN   | User          |
+| ----- | ------------- |
+| 64496 | [Famicoman](https://github.com/Famicoman)|
 
 This range may change at any time if it is found to conflict with another range or be unusable for any reason.
 
