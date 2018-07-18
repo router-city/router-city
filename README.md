@@ -52,4 +52,4 @@ Sample configuration is available here, [OpenVPN Configuration](openvpn.md).
 
 ### Bird
 
-Coming soon!
+Sample configuration is available here, [Bird Configuration](bird.md) (untested).
