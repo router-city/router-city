@@ -20,7 +20,7 @@ IPv4 addresses will be assigned from the `172.24.0.0/7` block, which is reserved
 | ------------- | -------------------------- | ------------- |
 | 172.24.0.0/24 | 172.24.0.0 - 172.24.0.255  | [Famicoman](https://github.com/Famicoman)|
 
-### Current IPv46 Allocations
+### Current IPv6 Allocations
 
 | CIDR                                 | Range                                                                  | User          |
 | ------------------------------------ | ---------------------------------------------------------------------- | ------------- |

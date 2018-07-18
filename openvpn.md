@@ -7,7 +7,7 @@ Here is a basic configuration for connecting two peers via [OpenVPN](https://ope
 Assuming a Debian installation with a non-root, sudo user. First, install `openvpn` on both peers (which I will call peer0 and peer1):
 
 ```
-sudo apt-get install openvpn```
+sudo apt-get install openvpn
 ```
 
 Now we will create a config file on peer0:
@@ -26,9 +26,9 @@ Use the following sample comfig and customize it with your info as outlined belo
 * Replace `<LOCAL_HOST>` with the IP address on your local peer that you will bind to. This is usually a public IP for a server or a LAN address for a machine on a home network.
 * Replace `<LOCAL_PORT>` with the port number, where your local peer's `openvpn` daemon listen for traffic.
 * Replace `<INTERFACE_NAME>` with a self chosen name, this will be the name of your network interface (tun device) for this peering. You can use something cool like `cty00`.
-* Replace `<LOCAL_GATEWAY_IP>` with your own router.city IPv4 address of your peer, picked from your [allocation](README.md/Current-IPv4-Allocations).
+* Replace `<LOCAL_GATEWAY_IP>` with your own router.city IPv4 address of your peer, picked from your [allocation](README.md/#current-ipv4-allocations).
 * Replace `<REMOTE_GATEWAY_IP>` with the router.city IPv4 address of your remote peer. (This is provided by your remote peer)
-* Replace `<LOCAL_GATEWAY_IPV6>` with your own router.city IPv6 address of your peer, picked from your [allocation](README.md/Current-IPv6-Allocations). **NOTE:** Your IPv6 address and your peer's IPV6 address need to be on the same subnet. This should be handled already by our network block but may cause problems if this is changed in the future.
+* Replace `<LOCAL_GATEWAY_IPV6>` with your own router.city IPv6 address of your peer, picked from your [allocation](README.md/#current-ipv6-allocations). **NOTE:** Your IPv6 address and your peer's IPV6 address need to be on the same subnet. This should be handled already by our network block but may cause problems if this is changed in the future.
 * Replace `<REMOTE_GATEWAY_IPV6>` with the router.city IPv6 address of your remote peer. (This is provided by your remote peer)
 
 
@@ -66,7 +66,7 @@ Before starting up, make sure that the port specified in `<LOCAL_PORT>` is opene
 When done, start `openvpn` in the background on each peer, or the foreground if you want to verify things started up okay.
 
 ```
-sudo nohub openvpn /etc/openvpn/router-city-<PEER_NAME>-<REMOTE_PEER_NAME>.conf &
+sudo nohup openvpn /etc/openvpn/router-city-<PEER_NAME>-<REMOTE_PEER_NAME>.conf &
 ```
 
 When done, check the interfaces on each node and do a quick ping test if you'd like.
