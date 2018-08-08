@@ -16,7 +16,7 @@ Now we will create a config file on peer0:
 $ sudo nano /etc/openvpn/router-city-peer0-peer1.config
 ```
 
-Use the following sample comfig and customize it with your info as outlined below:
+Use the following sample config and customize it with your info as outlined below:
 
 * Replace `<PEER_NAME>` with a self chosen name to identify this peer.
 * Replace `<REMOTE_PEER_NAME>` with a self chosen name to identify the remote peer.
