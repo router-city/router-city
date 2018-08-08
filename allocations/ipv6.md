@@ -12,6 +12,7 @@ Please add your allocation in lexicographical order.
 | --------------------------------------- | ---------------------------------------------------------------------------- | ------------- |
 | 2001:db8:dead:beef:cafe:f00d:0::/112    | 2001:db8:dead:beef:cafe:f00d:0:0 - 2001:db8:dead:beef:cafe:f00d:0:ffff       | [Famicoman](https://github.com/Famicoman)|
 | 2001:db8:dead:beef:cafe:babe:0::/112    | 2001:db8:dead:beef:cafe:babe:0:0 - 2001:db8:dead:beef:cafe:babe:0:ffff       | [mikenabhan](https://github.com/mikenabhan)|
+| 2001:db8:dead:beef:cafe:be11:0::/112    | 2001:db8:dead:beef:cafe:be11:0:0 - 2001:db8:dead:beef:cafe:be11:0:ffff       | [darkdrgn2k](https://github.com/darkdrgn2k)|
 | 2001:db8:dead:beef:ffff:ffff:ffff::/112 | 2001:db8:dead:beef:ffff:ffff:ffff:0 - 2001:db8:dead:beef:ffff:ffff:ffff:ffff | TEST RANGE    |
 
 These ranges may be changed at any time if they are found to conflict with another range or be unusable for any reason.
