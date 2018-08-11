@@ -1,5 +1,7 @@
 # router.city
 
+![router.city](routercity-logo.png)  
+
 router.city is a darknet project making use of BGP to experiment with routing. BGP (or Border Gateway Protocol) is a dominant protocol on the Internet, used for connecting multiple networks together.
 
 Several projects like this have existed before such as [dn42](https://dn42.net/Home) and [AnoNet](http://wiki.ucis.nl/Anonet).
