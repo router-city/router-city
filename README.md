@@ -36,10 +36,14 @@ Participants in the network will need to use some sort of VPN software to facili
 
 Any BGP daemon can be used to create a router, though the base case will showcase bird. Other daemons include Quagga and BGPd.
 
-### OpenVPN
+### Tunneling
+
+#### OpenVPN
 
 Sample configuration is available here, [OpenVPN Configuration](openvpn.md).
 
-### Bird
+### BGP
 
-Sample configuration is available here, [Bird Configuration](bird.md) (untested).
+#### Bird
+
+Sample configuration is available here, [Bird Configuration](bird.md).
