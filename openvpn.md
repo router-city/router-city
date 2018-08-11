@@ -76,6 +76,13 @@ When done, start `openvpn` in the background on each peer, or the foreground if 
 $ sudo nohup openvpn /etc/openvpn/router-city-<PEER_NAME>-<REMOTE_PEER_NAME>.conf &
 ```
 
+Further, we can get it set up with systemd to run at boot.
+
+```
+$ sudo systemctl enable openvpn@router-city-<PEER_NAME>-<REMOTE_PEER_NAME>
+$ sudo systemctl start openvpn@router-city-<PEER_NAME>-<REMOTE_PEER_NAME>
+```
+
 When done, check the interfaces on each node and do a quick ping test if you'd like.
 
 ## Sample Testing

@@ -244,10 +244,12 @@ protocol bgp <PEER_NAME> from rcpeers {
 
 ## Running bird
 
-Now restart `bird`:
+Now enable and restart `bird` to have it run at boot and apply our new config:
 
 ```
+$ sudo systemctl enable bird
 $ sudo systemctl restart bird
+$ sudo systemctl enable bird6
 $ sudo systemctl restart bird6
 ```
 
