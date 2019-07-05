@@ -13,6 +13,7 @@ Please add your ASN in lexicographical order.
 | 64496 | [Famicoman](https://github.com/Famicoman)|
 | 64497 | [mikenabhan](https://github.com/mikenabhan)|
 | 64498 | [darkdrgn2k](https://github.com/darkdrgn2k)|
+| 64499 | [brannondorsey](https://github.com/brannondorsey)|
 | 64511 | TEST ASN      |
 
 This range may change at any time if it is found to conflict with another range or be unusable for any reason.
