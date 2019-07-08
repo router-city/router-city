@@ -13,7 +13,7 @@ $ sudo apt-get install bird
 Use the following sample config files and customize them with your info as outlined below:
 
 * Replace `<AS>` with your [assigned router.city Autonomous System Number](README.md/#autonomous-system-numbers) (only the digits).
-* Replace `<GATEWAY_IP>` with your gateway IP (the internal private IP address you use on the host to connect to your remote peer).
+* Replace `<GATEWAY_IP>` with your gateway IP (A router.city address from your allocation that will identify this server).
 * Replace `<SUBNET>` with your registered router.city subnet.
 * Replace `<PEER_IP>` with the private IP address of your peer who is connected with you using OpenVPN or whatever other VPN software you use (NOT their public IP address). (This is provided by your remote peer)
 * Replace `<PEER_AS>` with the Autonomous System number of your remote peer (only the digits). (This is provided by your remote peer)
