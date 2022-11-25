@@ -1,4 +1,4 @@
-# OpenVPN Configuration
+# Wireguard Configuration
 
 Here is a basic configuration for connecting two peers via [Wireguard](https://www.wireguard.com/) software. This example does not use Crypto Routing so each peer has a separateinterface.
 
