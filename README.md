@@ -46,7 +46,7 @@ Sample configuration is available here, [OpenVPN Configuration](openvpn.md).
 
 #### Wiregard
 
-Sample configuration is available here, [OpenVPN Configuration](wireguard.md).
+Sample configuration is available here, [Wireguard Configuration](wireguard.md).
 
 
 ### BGP
