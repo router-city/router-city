@@ -1,6 +1,6 @@
 # Wireguard Configuration
 
-Here is a basic configuration for connecting two peers via [Wireguard](https://www.wireguard.com/) software. This example does not use Crypto Routing so each peer has a separateinterface.
+Here is a basic configuration for connecting two peers via [Wireguard](https://www.wireguard.com/) software. This example does not use Crypto Routing so each peer has a separate interface.
 
 ## Installation
 
@@ -125,5 +125,5 @@ rtt min/avg/max/mdev = 90.768/91.264/91.901/0.408 ms
 If pings go throught but larger things do not, try setting your local interfaces MTU to 1400
 
 ```
-ifconfig eth0 MTU 1400
+$ ifconfig eth0 MTU 1400
 ```
