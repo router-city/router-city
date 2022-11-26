@@ -10,6 +10,7 @@ Please add your allocation in lexicographical order.
 
 | CIDR                                    | Range                                                                        | User          |
 | --------------------------------------- | ---------------------------------------------------------------------------- | ------------- |
+| 2001:db8:dead:beef:4cbe::/80            | 2001:0db8:dead:beef:4cbe:0:0:0 - 2001:0db8:dead:beef:4cbe:ffff:ffff:ffff     | [Bandura Communications](https://byeob.de/)|
 | 2001:db8:dead:beef:cafe:f00d:0::/112    | 2001:db8:dead:beef:cafe:f00d:0:0 - 2001:db8:dead:beef:cafe:f00d:0:ffff       | [Famicoman](https://github.com/Famicoman)|
 | 2001:db8:dead:beef:cafe:babe:0::/112    | 2001:db8:dead:beef:cafe:babe:0:0 - 2001:db8:dead:beef:cafe:babe:0:ffff       | [mikenabhan](https://github.com/mikenabhan)|
 | 2001:db8:dead:beef:cafe:be11:0::/112    | 2001:db8:dead:beef:cafe:be11:0:0 - 2001:db8:dead:beef:cafe:be11:0:ffff       | [darkdrgn2k](https://github.com/darkdrgn2k)|
