@@ -6,7 +6,7 @@ router.city is a darknet project making use of BGP to experiment with routing. B
 
 Several projects like this have existed before such as [dn42](https://dn42.net/Home) and [AnoNet](http://wiki.ucis.nl/Anonet).
 
-Chat with us on Matrix! - [#router.city:phillymesh.net](https://matrix.to/#/#router.city:phillymesh.net)
+Chat with us on Matrix! - [#router.city:matrix.org](https://matrix.to/#/#router.city:matrix.org)
 
 ## Addressing
 
