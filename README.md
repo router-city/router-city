@@ -44,6 +44,11 @@ Any BGP daemon can be used to create a router, though the base case will showcas
 
 Sample configuration is available here, [OpenVPN Configuration](openvpn.md).
 
+#### Wiregard
+
+Sample configuration is available here, [Wireguard Configuration](wireguard.md).
+
+
 ### BGP
 
 #### Bird
