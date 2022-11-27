@@ -23,10 +23,10 @@ echo $privateKey
 echo $publicKey
 ```
 
-Now we will create a config file on wg-cty0. Each new peer will increate the index (wg-cty1, wg-cty2 etc). This exmapls uses wg-cty0 but update as needed. These DO NOT need to match on the two nodes
+Now we will create a config file on wg_cty0. Each new peer will increate the index (wg_cty1, wg_cty2 etc). This exmapls uses wg_cty0 but update as needed. These DO NOT need to match on the two nodes
 
 ```
-$ sudo nano /etc/wireguard/wg-cty0.conf
+$ sudo nano /etc/wireguard/wg_cty0.conf
 ```
 
 Select one peer to be the server, and the other the client. Exchange value of `echo $oublicKey`. Decide on a network range between your nodes. IPv4 can use `/30` Cirds and IPv6 `/128` to save IP space. Server will also need to provide the IP address of their node and the ListenPort.
@@ -63,13 +63,13 @@ On the server, before starting up, make sure that the port specified in `<Listen
 When done, start `wireguard` the new wireguard instance.
 
 ```
-$ sudo systemctl start wg-quick@wg-cty0
+$ sudo systemctl start wg-quick@wg_cty0
 ```
 
 Further, we can get it set up with systemd to run at boot.
 
 ```
-$ sudo systemctl enable wg-quick@wg-cty0
+$ sudo systemctl enable wg-quick@wg_cty0
 ```
 
 When done, check the interfaces on each node and do a quick ping test if you'd like.
@@ -79,7 +79,7 @@ You can check the status of the wireguard instance by using the `wg` command. Af
 When you update the config remember to restart the instance using
 
 ```
-$ sudo systemctl restart wg-quick@wg-cty0
+$ sudo systemctl restart wg-quick@wg_cty0
 ```
 
 ## Sample Testing
@@ -91,16 +91,16 @@ Local peer: 192.168.254.1 and fe80:1::1/128
 Remote Peer: 192.168.251.2 fe80:1::2/128
 
 ```
-$  ip a show wg-cty0
-239: wg-cty0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1412 qdisc pfifo_fast state UNKNOWN group default qlen 100
+$  ip a show wg_cty0
+239: wg_cty0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1412 qdisc pfifo_fast state UNKNOWN group default qlen 100
     link/none
     inet 192.168.254.1/30 scope global cty02
        valid_lft forever preferred_lft forever
     inet6 fe80:1::1/128 scope link
        valid_lft forever preferred_lft forever
 
-$ ping -c4 -I wg-cty0 192.168.254.2
-PING 192.168.254.2 (192.168.254.2) from 192.168.254.1 wg-cty0: 56(84) bytes of data.
+$ ping -c4 -I wg_cty0 192.168.254.2
+PING 192.168.254.2 (192.168.254.2) from 192.168.254.1 wg_cty0: 56(84) bytes of data.
 64 bytes from 192.168.254.2: icmp_seq=1 ttl=64 time=91.4 ms
 64 bytes from 192.168.254.2: icmp_seq=2 ttl=64 time=91.1 ms
 64 bytes from 192.168.254.2: icmp_seq=3 ttl=64 time=91.2 ms
@@ -110,8 +110,8 @@ PING 192.168.254.2 (192.168.254.2) from 192.168.254.1 wg-cty0: 56(84) bytes of d
 4 packets transmitted, 4 received, 0% packet loss, time 3004ms
 rtt min/avg/max/mdev = 91.180/91.292/91.426/0.315 ms
 
-$ ping6 -c4 -I wg-cty0 fe80:1::2
-PING fe80:1::2(fe80:1::2) from fe80:1::1 wg-cty0: 56 data bytes
+$ ping6 -c4 -I wg_cty0 fe80:1::2
+PING fe80:1::2(fe80:1::2) from fe80:1::1 wg_cty0: 56 data bytes
 64 bytes from fe80:1::2: icmp_seq=1 ttl=64 time=91.1 ms
 64 bytes from fe80:1::2: icmp_seq=2 ttl=64 time=91.2 ms
 64 bytes from fe80:1::2: icmp_seq=3 ttl=64 time=91.9 ms
