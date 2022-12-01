@@ -15,6 +15,5 @@ Please add your allocation in lexicographical order.
 | 172.24.2.0/24   | 172.24.2.0 - 172.24.2.255     | [darkdrgn2k](https://github.com/darkdrgn2k)|
 | 172.24.3.0/24   | 172.24.3.0 - 172.24.3.255     | [brannondorsey](https://github.com/brannondorsey)|
 | 172.24.7.0/24   | 172.24.7.0 - 172.24.7.255     | [Bandura Communications](https://byeob.de/)|
-| 172.24.255.0/24 | 172.24.255.0 - 172.24.255.255 | TEST RANGE    |
 
 These ranges may be changed at any time if they are found to conflict with another range or be unusable for any reason.
