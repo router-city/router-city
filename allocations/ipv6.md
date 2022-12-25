@@ -2,7 +2,7 @@
 
 router.city will utilize both IPv4 and IPv6 addressing within the network.
 
-IPv6 addresses will be assigned from the `2001:db8:dead:beef:/64` block, which is reserved space for documentation and source code examples. This range does not conflict with dn42, ChaosVPN, Friefunk, Yggdrasil, or cjdns.
+IPv6 addresses will be assigned from the `2001:db8:dead:beef::/64` block, which is reserved space for documentation and source code examples. This range does not conflict with dn42, ChaosVPN, Friefunk, Yggdrasil, or cjdns.
 
 Please add your allocation in lexicographical order.
 

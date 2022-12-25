@@ -45,16 +45,16 @@ Use the following sample config on both peers and customize it with your info as
 ```
 [Interface]
 PrivateKey = <PrivateKey>
-Address = <Address>
 ListenPort = <ListenPort>
+
+Address = <Address>
 Table = off
 
 [Peer]
 PublicKey = <PublicKey>
-AllowedIPs = 0.0.0.0/0
-AllowedIPs = ::/0
 Endpoint = <Endpoint> # Comment out for server
 PersistentKeepalive = 20
+AllowedIPs = 0.0.0.0/0, ::/0
 ```
 
 
